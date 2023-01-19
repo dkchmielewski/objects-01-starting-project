@@ -10,7 +10,8 @@ const person = {
     hobbies: ['Sports', 'Cooking'],
     greet: function() {
         alert('Hi there!');
-    }
+    },
+    1.5: 'hello'
 };
 
 // person.greet();
@@ -21,3 +22,4 @@ delete person.age;
 
 person.isAdmin = true;
 console.log(person['first name']);
+console.log(person[1.5]);
